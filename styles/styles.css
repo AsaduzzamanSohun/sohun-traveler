@@ -415,7 +415,7 @@ main {
 
 /* ---------------------- newsletter section -------------------------------- */
 
-.letter-section{
+.letter-section {
     margin: 100px 0;
 }
 
@@ -462,6 +462,30 @@ hr {
     width: 100%;
 }
 
+.newsletter-img {
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    top: 60%;
+    right: 1%;
+    text-align: center;
+    color: #FFF;
+    padding: 20px 32px;
+    transform: rotate(-19.62deg);
+    border-radius: 16px;
+    background: #FF5400;
+}
+
+.badge p{
+    font-size: 1.5rem;
+}
+
+.badge h3{
+    font-size: 2rem;
+    font-weight: 000;
+}
 
 /* --------------------------- footer css style --------------------------------- */
 
@@ -659,7 +683,7 @@ footer {
         gap: 55px;
     }
 
-    .popular-img{
+    .popular-img {
         width: 100%;
     }
 
@@ -727,8 +751,8 @@ footer {
 
     /* ------------ Responsive Newsletter Style ------------- */
 
-    .letter-section{
-        margin: 2rem  0;
+    .letter-section {
+        margin: 2rem 0;
     }
 
     .letter-container {
@@ -768,11 +792,30 @@ footer {
         border: none;
     }
 
+    .badge {
 
+        top: 50%;
+        right: 2%;
 
-    .letter-box button {
-        width: 100%;
+        padding: 1rem 1.5rem;
+        transform: rotate(-19.62deg);
+        border-radius: 16px;
+        background: #FF5400;
     }
+    
+    .badge p{
+        font-size: 1rem;
+    }
+    
+    .badge h3{
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+
+
+
+
+
 
 
     /* ---------------------------------------------------------------------------------- */
@@ -782,25 +825,25 @@ footer {
     .footer-section {
         padding: 3rem 0;
     }
-    
 
-    
+
+
     .footer-des {
-    
+
         font-size: 0.8rem;
         font-weight: 400;
         padding: 0 3rem;
         margin: 2rem auto 2rem;
-    
+
     }
-    
+
     .footer-hr {
         background: rgba(19, 19, 24, 0.10);
         margin: 50px auto;
         max-width: 872px;
     }
-    
-    
+
+
 
 
 
